@@ -118,16 +118,14 @@ body {
   background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
   text-transform: uppercase;
   display: flex;
-  padding: 0;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding: 1px;
 }
 
 .buy-btn__text {
-  color: #F6F4F5;
-  padding-left: 111px;
-  padding-right: 111px;
-
+  color: #f6f4f5;
+  padding: 20px 110px;
 }
 .buy-btn__price {
-  background-color: transparent;}
+  background-color: #f6f4f5;
+  padding: 20px 105px;
+}
