@@ -186,7 +186,7 @@ body {
   font-weight: 700;
   margin-bottom: 20px;
 }
-.tabs__btn-item:first-child {
+.tabs__btn-item--active {
   color: #070707;
 }
 
@@ -201,6 +201,7 @@ body {
   gap: 40px;
   opacity: 0;
   position: absolute;
+  transition: opacity .3s ease;
 }
 
 .tabs__content-item--active {
